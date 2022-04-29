@@ -40,13 +40,13 @@ const randomcolors = Math.floor(Math.random() * quotebox.length);
      document.body.style =`background:${colors[randomcolors]}`
 
     return (
-        <div className="card" style={{background: colors[randomcolors]}} >
+        <div className="card" style={{background:"white" }} >
             <div  >
-                <div className="text">
+                <div className="text" style={{color: colors[randomcolors]}}   >
                     <p>{quotebox[next].quote}</p>
                     <div className="autor"><h4>{quotebox[next].author}</h4></div>
-                    <div className="button" ><button  onClick={ nextPhrase} ><i class="fa-solid fa-circle-chevron-right"></i></button> </div>
-                                    
+                    <div className="button" ><button  onClick={ nextPhrase} ><i className="fa-solid fa-circle-chevron-right"></i></button> </div>
+                            
                 </div>
             </div>
         </div>
