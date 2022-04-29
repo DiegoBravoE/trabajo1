@@ -3,7 +3,7 @@
   padding: 1rem;
   width: 500px;
   text-align: center;
-  box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+  box-shadow: -3px -10px 129px 10px rgba(0,0,0,0.75);
   border-radius: 15px;
 }
 .autor{
@@ -16,5 +16,11 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 255, 255, 0);
+
 }
 
