@@ -32,11 +32,4 @@ button{
   cursor: pointer;
   border: none;
 }
-@media only screen and (min-width: 576px) {
 
-.card{
-  width: 250px;
-}
-
-
-}
