@@ -14,7 +14,7 @@
 .button{
  
   display: flex;
-  justify-content: flex-end;
+  
   margin-right: 50px;
 }
 button{
